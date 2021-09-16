@@ -1,0 +1,100 @@
+.signup-container {
+  border-radius: 10px;
+  background-color: rgb(67, 72, 77);
+  color: white;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 100px;
+  margin-bottom: auto;
+
+  /* margin: 100px 0 auto; */
+  max-width: 40vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center {
+  /* margin: 0 auto; */
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  /* border: 1px solid red; */
+}
+
+.date-of-birth p {
+  /* border: 1px solid tomato; */
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+.day,
+.month,
+.year {
+  /* border: 1px solid green; */
+  padding: 8px;
+  cursor: pointer;
+  background-color: rgb(67, 72, 77);
+  color: white;
+  margin: 0 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  outline: none;
+}
+
+.signup-container h4 {
+  margin-bottom: 10px;
+}
+
+.signup-container form {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.signup-container input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  outline: none;
+  color: white;
+  background-color: rgb(67, 72, 77);
+}
+
+.signup-container input[type="submit"] {
+  background: rgb(29 161 242);
+  margin-top: 40px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signup-container input[type="submit"]:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+.date-of-birth-container {
+  border: 1px solid rebeccapurple;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date-of-birth-container div {
+  padding: 0 10px;
+}
+
+.error {
+  /* border: 1px solid red; */
+  font-size: 0.8rem;
+  color: red;
+  text-align: center;
+}

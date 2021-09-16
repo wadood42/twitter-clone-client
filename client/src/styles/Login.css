@@ -1,0 +1,52 @@
+.login-container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 60px auto auto auto;
+  color: white;
+  background-color: rgb(67, 72, 77);
+  border-radius: 10px;
+}
+
+.login-container .logo {
+  /* border: 1px solid red; */
+  width: 50px;
+  margin: 50px auto 10px auto;
+}
+.login-container h3 {
+  /* border: 1px solid red; */
+  text-align: center;
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+
+  /* border: 1px solid yellow; */
+  margin: 10px;
+}
+
+.login-container input {
+  padding: 16px;
+  margin-bottom: 10px;
+  background-color: rgb(67, 72, 77);
+  color: white;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.login-container input::placeholder {
+  color: white;
+}
+
+.login-container input[type="submit"] {
+  background-color: rgb(29, 161, 242);
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+}

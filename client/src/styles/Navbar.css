@@ -1,0 +1,4 @@
+.navbar-container {
+  background-color: red;
+  grid-column: 1 / span 3;
+}
